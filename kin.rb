@@ -2,16 +2,16 @@
 class Kin < Formula
   desc "Automatic home page of self hosted dockerized web application"
   homepage ""
-  version "1.0.3"
+  version "1.0.4"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/marema31/kin/releases/download/v1.0.3/kin_1.0.3_Darwin_x86_64.tar.gz"
-    sha256 "a727a9279f6b4b8d744b8464123e371aef25f94efbf9542c2e94f0d7bdb89abb"
+    url "https://github.com/marema31/kin/releases/download/v1.0.4/kin_1.0.4_Darwin_x86_64.tar.gz"
+    sha256 "c19c5683a9313bffd400bb3891895a4e83f99a5e926db74197e35260c77412dd"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/marema31/kin/releases/download/v1.0.3/kin_1.0.3_Linux_x86_64.tar.gz"
-      sha256 "6fc8078aa4f3bb9497e6ecca4085c16ce9ca824207cd76024e3c7828a5b59292"
+      url "https://github.com/marema31/kin/releases/download/v1.0.4/kin_1.0.4_Linux_x86_64.tar.gz"
+      sha256 "44c0bf989e939c4f6ae25a8f434fe8f0bc6a266b5043e6058144e4be979009d8"
     end
   end
 
