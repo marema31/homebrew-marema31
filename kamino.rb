@@ -2,16 +2,16 @@
 class Kamino < Formula
   desc "Development database content bootstraper"
   homepage ""
-  version "1.4.2"
+  version "1.5.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/marema31/kamino/releases/download/v1.4.2/kamino_1.4.2_Darwin_x86_64.tar.gz"
-    sha256 "54321974cce2bbce46325b1e87a0d2f20cfd4374a112167f9dd4f198f0c2647e"
+    url "https://github.com/marema31/kamino/releases/download/v1.5.0/kamino_1.5.0_Darwin_x86_64.tar.gz"
+    sha256 "589d2df6a5e01e8eff4203d5fbf578fda8bd60e68c1dab4b2ac11d6b8120864d"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/marema31/kamino/releases/download/v1.4.2/kamino_1.4.2_Linux_x86_64.tar.gz"
-      sha256 "afa7c0845f4489f37a2b7dab90cddec9e386c97d594d62e9ae72b801837142c0"
+      url "https://github.com/marema31/kamino/releases/download/v1.5.0/kamino_1.5.0_Linux_x86_64.tar.gz"
+      sha256 "30298bcc6a89e53db8c1e150a5c1eddfa74de9543e5f024c0d63179795dbc8f5"
     end
   end
 
