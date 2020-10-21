@@ -2,16 +2,16 @@
 class Villip < Formula
   desc "Filtering proxy for development environment"
   homepage ""
-  version "1.1.0"
+  version "1.1.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/marema31/villip/releases/download/v1.1.0/villip_1.1.0_Darwin_x86_64.tar.gz"
-    sha256 "78252546e218772a76433b8906822ad0c2676aab08f85e24f797a23eef41efea"
+    url "https://github.com/marema31/villip/releases/download/v1.1.1/villip_1.1.1_Darwin_x86_64.tar.gz"
+    sha256 "e4ddb4a30ed58ff47693b6cd2809ebe689227c3255f793ecbfa3dd21e81de15c"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/marema31/villip/releases/download/v1.1.0/villip_1.1.0_Linux_x86_64.tar.gz"
-      sha256 "d6a3dac106c798dbf9e6b046f682e4cb13802849f23e267c515d4947f57b0801"
+      url "https://github.com/marema31/villip/releases/download/v1.1.1/villip_1.1.1_Linux_x86_64.tar.gz"
+      sha256 "f84ed28e4fae295f9a50ab3d32afd58890b0269f8c7a4bd6f5a6fb47f6c0f9ca"
     end
   end
 
